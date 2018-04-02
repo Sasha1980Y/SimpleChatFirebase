@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import Firebase
+
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -15,6 +17,33 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+        
+        // активація  Firebase
+        FirebaseApp.configure()
+        
+        
+        
+        // проходимо  авторизацію
+        /*
+        Auth.auth().signIn(withEmail: "1valeriayakovenko@gmail.com", password: "123456", completion: { (user, error) in
+            
+            if error != nil {
+                if let userUid = user?.uid {
+                    //  тут можна використовувати KeyChainWrapper
+                    UserDefaults.standard.set(userUid, forKey: "uid")
+                }
+                // після правильної авторизації йдемо до робочого контроллера
+                //self.performSegue(withIdentifier: "toMessages", sender: nil)
+            } else {
+                // інакше на реєстрацію
+                //self.performSegue(withIdentifier: "toSignUp", sender: nil)
+            }
+            //
+            
+        })
+        
+        */
+        
         // Override point for customization after application launch.
         return true
     }

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>593428184760-cv5pgo2kch4l85v29mdu9ora343t32uv.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.593428184760-cv5pgo2kch4l85v29mdu9ora343t32uv</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAmRS_lakUBd7jV2-7ACaQTs6C8QOdbkx4</string>
+	<key>GCM_SENDER_ID</key>
+	<string>593428184760</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>Alexander-Yakovenko.SimpleChatFirebase</string>
+	<key>PROJECT_ID</key>
+	<string>simplechatapp-2c8eb</string>
+	<key>STORAGE_BUCKET</key>
+	<string>simplechatapp-2c8eb.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true></true>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false></false>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:593428184760:ios:9631fec42a060bee</string>
+	<key>DATABASE_URL</key>
+	<string>https://simplechatapp-2c8eb.firebaseio.com</string>
+</dict>
+</plist>
